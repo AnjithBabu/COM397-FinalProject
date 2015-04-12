@@ -1,0 +1,41 @@
+{
+"images": ["heroAtlas.png"],
+"frames": [
+
+    [2, 154, 60, 85], 
+    [126, 126, 60, 85], 
+    [177, 2, 69, 60], 
+    [177, 64, 69, 60], 
+    [103, 2, 72, 62], 
+    [2, 64, 60, 88], 
+    [64, 156, 60, 81], 
+    [188, 126, 60, 81], 
+    [188, 209, 60, 80], 
+    [126, 213, 60, 80], 
+    [64, 239, 60, 80], 
+    [2, 241, 60, 80], 
+    [2, 2, 99, 60], 
+    [64, 66, 60, 88]
+],
+"animations": {
+    
+        "dizzy-1":[0], 
+        "dizzy-2":[1], 
+        "faint-1":[2], 
+        "faint-2":[3], 
+        "faint-3":[4], 
+        "fall":[5], 
+        "idle1":[6], 
+        "idle2":[7], 
+        "run1":[8], 
+        "run2":[9], 
+        "run3":[10], 
+        "run4":[11], 
+        "sliding":[12], 
+        "up":[13]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:9330f35f0171ec10a5a2bceb9c0b33b3:3dfc660ec690d9df2b4224e342bd69a4:6d259f85d6f70158dcba0babe025e65b$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}
