@@ -9,7 +9,6 @@
         public height: number;
         public bitmapId: number;
         
-
         // CONSTRUCTOR
         constructor(x, y, path, id) {
             super(path);
@@ -41,7 +40,5 @@
                 this.reachedBounds = true;
             }
         }
-
     }
-
 }   

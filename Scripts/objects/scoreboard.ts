@@ -36,9 +36,7 @@ module objects {
             this.scoreValueLabel.regY = 0;
             this.scoreValueLabel.fontSize(40);
 
-
             this.update();
-
             this.showScoreBoard();
         }
 
@@ -48,7 +46,6 @@ module objects {
             stage.addChild(this.scoreLabel);
             stage.addChild(this.scoreValueLabel);
         }
-
 
         update() {
             this.livesValueLabelString = config.HERO_LIVES.toString();

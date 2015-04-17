@@ -22,4 +22,3 @@ var config;
     config.MENU_STATE_3 = 6;
     config.GAME_OVER_STATE = 7;
 })(config || (config = {}));
-//# sourceMappingURL=config.js.map

@@ -47,7 +47,6 @@ var stateChanged: boolean = false;
 var world: Box2D.Dynamics.b2World;
 var reality: objects.Reality;
 
-
 function preload(): void {
     managers.Assets.init();
     managers.Assets.loader.addEventListener("complete", init);
@@ -98,8 +97,6 @@ function setupStats() {
     stats.domElement.style.top = '0px';
     document.body.appendChild(stats.domElement);
 }
-
-
 
 function gameStart(): void {
 
