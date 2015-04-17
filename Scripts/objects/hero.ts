@@ -23,7 +23,6 @@ module objects {
 
         constructor() {
             // Set our Hero controls initially to false
-
             // Sets last jump time to zero, to allow
             // for jumping immediately
             this.lastJumpTime = 0;
@@ -193,7 +192,6 @@ module objects {
                 controls.rTally = 0;
             }
 
-
             if (controls.right && velocity.x < this.MAX_SPEED) {
                 finalVelocity += (velocity.x > 0 ? 0.45 : 0.6);
 
@@ -226,9 +224,7 @@ module objects {
             // and apply the new linear velocity(left
             // and right) to our Hero's Box2D Body.
             velocity = new box2d.b2Vec2(finalVelocity, velocity.y);
-            this.body.SetLinearVelocity(velocity);
-
-        
+            this.body.SetLinearVelocity(velocity);        
         }
 
         public createFireBall() {

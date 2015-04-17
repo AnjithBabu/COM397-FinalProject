@@ -24,7 +24,6 @@ module objects {
             this.createBodyDefinition();
             this.createCoin();
         }
-
         createFixtureDefinition() {
             this.fixDef = new box2d.b2FixtureDef();
             this.fixDef.density = 1.0;
